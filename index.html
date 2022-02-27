@@ -1,0 +1,469 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width initial-scale=1" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+    <!-- Materialize - Compiled and minified CSS-->
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/materialize/0.95.3/css/materialize.min.css" />
+    <!-- Font Awesome Icon - CSS-->
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" />
+    <!-- Custom Styles-->
+    <link rel="stylesheet" href="style.css" />
+    <title>Santhosh Senthil</title>
+
+</head>
+
+<body>
+
+    <!-- Navigation Menu-->
+    <!-- Nav class 1 -->
+    <nav class="hide-on-small-only">
+        <ul class="side-nav fixed section table-of-contents">
+
+            <li class="logo">
+                <a id="logo-container" aria-label="Navigate to the beginning of the page" href="#intro" class="brand-logo grey-blue-text">
+                    <img src="/assets/img/My photo.jpg" class="circle img-responsive profile-pic" alt="avatar">
+                </a>
+            </li>
+
+            <li class="bold">
+                <a aria-label="Navigate to the About section" href="#about"><i
+            class="mdi-social-person small"></i><span>About</span></a>
+            </li>
+            <li class="bold">
+                <a aria-label="Navigate to the Experience section" href="#experience"><i
+            class="mdi-action-trending-up small"></i><span>Experience</span></a>
+            </li>
+
+            <li class="bold">
+                <!--ICONS:  mdi-av-web small-->
+                <!--        mdi-av-my-library-books small-->
+                <a aria-label="Navigate to the Projects section" href="#projects"><i
+            class="mdi-av-my-library-books small"></i><span>Projects</span></a>
+            </li>
+
+            <li class="bold">
+                <!--
+        ICONS:
+        mdi-action-assessment
+        mdi-social-poll
+        mdi-av-equalizer
+        -->
+                <a aria-label="Navigate to the Skills section" href="#skills"><i
+            class="mdi-action-assessment small"></i><span>Skills</span></a>
+            </li>
+
+            <li class="bold">
+                <!--
+        ICONS:
+        -->
+                <a aria-label="Navigate to the Education section" href="#education"><i
+            class="mdi-social-school small"></i><span>Education</span></a>
+            </li>
+
+            <li class="bold">
+                <!-- 
+        1. mdi-communication-contacts
+        2. mdi-content-mail
+        3. mdi-communication-email
+        -->
+                <a aria-label="Navigate to the Contact section" href="#contact"><i
+            class="mdi-content-mail small"></i><span>Contact</span></a>
+            </li>
+
+            <li class="bold">
+                <!--
+        ICONS:
+        1. mdi-action-description
+        2. mdi-file-folder
+        3. mdi-file-folder-open
+        4. mdi-file-attachment
+        5. mdi-file-folder-shared
+        -->
+                <a aria-label="Open Santhosh resume in a new tab" href="#resume" target="_blank" onclick="window.open('https://drive.google.com/file/d/1sZlkhpySYr-XLRAnbrTnFogdH3-IDxj7/view?usp=sharing')"><i class="mdi-file-folder-open small"></i><span>Resume</span></a>
+            </li>
+        </ul>
+    </nav>
+
+    <!-- Nav class 2 -->
+    <nav class="hide-on-large only trigger z-depth-1">
+        <a aria-label="Toggle visibility of the mobile navbar" href="#" data-activates="slide-out" class="button-collapse"><i class="mdi-navigation-menu"></i></a>
+        <div class="name-title">
+            <a id="name" aria-label="Navigate to the beginning of the page" href="#" class="teal-text">Santhosh Senthil</a><span class="black-text">Frontend Developer</span>
+        </div>
+    </nav>
+
+    <!-- Nav class 3 -->
+    <nav class="hide-on-large only">
+        <ul id="slide-out" class="side-nav">
+            <li class="bold">
+                <a aria-label="Navigate to the About section" href="#about" class="waves-effect waves-dark teal-text"><i
+            class="mdi-social-person small"></i><span>About</span></a>
+            </li>
+            <li class="bold">
+                <a aria-label="Navigate to the Experience section" href="#experience" class="waves-effect waves-dark teal-text"><i
+            class="mdi-action-trending-up small"></i><span>Experience</span></a>
+            </li>
+            <li class="bold">
+                <a aria-label="Navigate to the Projects section" href="#projects" class="waves-effect waves-dark teal-text"><i
+            class="mdi-av-my-library-books small"></i><span>Projects</span></a>
+            </li>
+            <li class="bold">
+                <a aria-label="Navigate to the Skills section" href="#skills" class="waves-effect waves-dark teal-text"><i
+            class="mdi-action-assessment small"></i><span>Skills</span></a>
+            </li>
+
+            <li class="bold">
+                <a aria-label="Navigate to the Education section" href="#education" class="waves-effect waves-dark teal-text"><i
+            class="mdi-social-school small"></i><span>Education</span></a>
+            </li>
+            <li class="bold">
+                <a aria-label="Navigate to the Contact section" href="#contact" class="waves-effect waves-dark teal-text"><i
+            class="mdi-content-mail small"></i><span>Contact</span></a>
+            </li>
+            <li class="bold">
+                <a aria-label="Open Santhosh Resume in a new tab" href="https://drive.google.com/file/d/1sZlkhpySYr-XLRAnbrTnFogdH3-IDxj7/view?usp=sharing" target="_blank" class="waves-effect waves-dark teal-text"><i class="mdi-file-folder-open small"></i><span>Resume</span></a>
+            </li>
+        </ul>
+    </nav>
+
+    <!-- Main Content-->
+    <main>
+        <!-- First Section: Heading lines and image -->
+        <section id="intro" class="section scrollspy full-height">
+            <div class="container">
+                <div class="col-md-9">
+                    <div class="content section-padding valign" style="margin-left: 10%; margin-top: 50px;">
+                        <div class="caption">
+
+                            <p> </p>
+                            <h1>Hi,👋I 'm
+                                <br>Santhosh Senthil.
+                            </h1>
+                            <h4>Problem Solver| Web Developer| Front End Developer| Competitive Programmer</h4>
+                        </div>
+
+                        <div class="social">
+                            <a href="http://linkedin.com/in/Santhosh553" target="_blank">
+                                <button class="icon-btn linkedin">
+                  <i class="fa fa-linkedin"></i>
+                </button>
+                            </a>
+                            <a href="https://github.com/Santhosh553/" target="_blank">
+                                <button class="icon-btn github">
+                  <i class="fa fa-github"></i>
+                </button>
+                            </a>
+
+                        </div>
+                        <div class="buttons">
+                            <a href="#about" class="readme ">Read More</a>
+                            <a href="#contact " class="contactme ">Contact Me</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Second Section: About -->
+        <section id="about" class="section scrollspy ">
+            <h3 class="page-title white-text teal ">About</h3>
+            <div class="container flow-text ">
+                <blockquote>
+                    <h2>
+                        A Budding Engineer with a passion for Tech, creativity, and finding solutions.
+
+                    </h2>
+                </blockquote>
+                <p>
+                    I'm second year Computer Science Engineering undergraduate student at Velammal Engineering College. I enjoy problem-solving and coding. Always strive to bring 100% to the work I do. I have worked on technologies like Python, MySQL, HTML5, CSS, Java, C++
+                    during my weekends.</p>
+                <p>
+                    <ul>
+                        <li><b>Languages:</b> Python, Java, JavaScript, C, C++, HTML/CSS, PHP</li>
+                        <li><b>Databases:</b> MySQL</li>
+                        <li><b>Libraries:</b> Matplotlib</li>
+                        <li><b>Platforms:</b> Hackerrank, Codechef,Skillrack, Leetcode</li>
+                        <li><b>Tools & Technologies:</b> GitHub, VSCode</li>
+                    </ul>
+
+                </p>
+            </div>
+        </section>
+
+
+        <!-- Third Section: Experience -->
+        <section id="experience" class="section scrollspy ">
+            <h3 class="page-title white-text teal ">Experience</h3>
+            <div class="container ">
+                <div class="card ">
+                    <div class="card-content ">
+                        <div class="row ">
+                            <div class="col s12 m2 ">
+                                <a href="https://www.thesparksfoundationsingapore.org/  " target="_blank "><img alt="The Sparks Foundation logo " src="/assets/img/the-sparks-foundation.png" class="responsive-img center-block " /></a>
+                            </div>
+
+                            <div class="col s12 m10 ">
+                                <p>
+                                    <span class="card-title "><a href="https://www.thesparksfoundationsingapore.org/ " target="_blank "
+                      class="teal-text hoverline ">The Sparks Foundation</a></span>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="role brown-text text-darken-2 ">Web Developer</div>
+                        <ul>
+                            <li>
+                                Created a Basic Banking website which has the following specs. </li>
+                            <li>
+                                Start with creating data in Mysql database for upto 10 customers. Customer table will have basic fields such as name, email, current balance etc.,
+                            </li>
+                            <li>Transfers table will record all transfers happened.</li>
+                            <li>Flow: Homepage--..--View all Customers--..--Select and view one customer--..--Transfer Money. No login page and No User creation.
+                            </li>
+                            <li>
+                                <b>Tools:</b> Html, CSS, Javascript, Php, Mysql
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="card-action ">
+                        <span>Oct 2021 (1 Month) | Singapore</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Fourth Section: Projects -->
+        <section id="projects" class="section scrollspy ">
+            <h3 class="page-title white-text teal ">Projects</h3>
+            <div class="container ">
+                <div class="row ">
+
+                    <div class="col s12 m6 l4 ">
+                        <div class="card medium ">
+                            <div class="card-image waves-effect waves-block waves-light ">
+                                <img alt="TIc Tac Toe" src="https://apklade.com/wp-content/uploads/2020/05/Tic-Tac-Toe-Glow-MOD-Unlimited-Money-7.7-023911.png" style="height: 100%; width: 100% " class="activator " />
+                            </div>
+                            <div class="card-content ">
+                                <a href="https://github.com/Santhosh553/TIC-TAC-TOE" class="teal-text hoverline">TIC TAC TOE</a>
+                                <br>
+                                <p>A Simple TIC TAC TOE Game Using Python.</p>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Fifth Section: Skills -->
+        <section id="skills" class="section scrollspy ">
+            <h3 class="page-title white-text teal ">Skills</h3>
+            <div class="container ">
+                <!-- Languages and Databases -->
+                <div class="card ">
+                    <div class="card-content ">
+                        <h4 class="brown-text light ">Languages and Databases</h4>
+                        <div class="row text-center ">
+                            <div class="col s4 m2 ">
+                                <img alt=" " src="/assets/img/python.jpg " class="responsive-img " />Python
+                            </div>
+                            <div class="col s4 m2 ">
+                                <img alt=" " src="/assets/img/html5.png" class="responsive-img " />HTML5
+                            </div>
+                            <div class="col s4 m2 ">
+                                <img alt=" " src="/assets/img/css3.png " class="responsive-img " />CSS3
+                            </div>
+                            <div class="col s4 m2 ">
+                                <img alt=" " src="/assets/img/mysql.png " class="responsive-img " />MySQL
+                            </div>
+                            <div class="col s4 m2 ">
+                                <img alt=" " src="/assets/img/C++.jpg" class="responsive-img " />C++
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card ">
+                    <div class="card-content ">
+                        <h4 class="brown-text light ">Libraries</h4>
+                        <div class="row text-center ">
+                            <div class="col s4 m2 ">
+                                <img alt=" " src="/assets/img/matplotlib.png " class="responsive-img " />matplotlib
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Platforms -->
+                <div class="card ">
+                    <div class="card-content ">
+                        <h4 class="brown-text light ">Platforms</h4>
+                        <div class="row text-center ">
+                            <div class="col s4 m2 ">
+                                <img alt=" " src="/assets/img/hackerrank.png " class="responsive-img " />
+                                <a href="https://www.hackerrank.com/Santhosh553" class="teal-text hoverline">Hackerrank</a>
+                            </div>
+                            <div class=" col s4 m2 ">
+                                <img alt=" " src="/assets/img/codechef.png " class="responsive-img " />
+                                <a href="https://www.codechef.com/users/santhosh553" class="teal-text hoverline">Codechef</a>
+                            </div>
+                            <div class="col s4 m2 ">
+                                <img alt=" " src="/assets/img/skillrack.jpg " class="responsive-img " />
+                                <a href="http://intern.skillrack.com/profile/345602/39c99538028a22db323d436474edc7cb5cad9f11" class="teal-text hoverline">Skillrack</a>
+                            </div>
+                            <div class="col s4 m2 ">
+                                <img alt=" " src="/assets/img/leetcode.png " class="responsive-img " />
+                                <a href="https://leetcode.com/Santhosh553/" class="teal-text hoverline">Leetcode</a>
+                            </div>
+                            <div class="col s4 m2 ">
+                                <img alt=" " src="/assets/img/gfg.png " class="responsive-img " />
+                                <a href="https://auth.geeksforgeeks.org/user/santhosh553/profile" class="teal-text hoverline">GeeksforGeeks</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Other -->
+                <div class="card ">
+                    <div class="card-content ">
+                        <h4 class="brown-text light ">Other</h4>
+                        <div class="row text-center ">
+
+
+                            <div class="col s4 m2 ">
+                                <img alt=" " src="/assets/img/github.png " class="responsive-img " />GitHub
+                            </div>
+                            <div class="col s4 m2 ">
+                                <img alt=" " src="/assets/img/vscode.png " class="responsive-img " />VSCode
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- certifications -->
+                <div class="card ">
+                    <div class="card-content ">
+                        <h4 class="brown-text light ">Certificates</h4>
+                        <div class="row text-left ">
+                            <div class="container ">
+                                <div class="row ">
+                                    <div class="col s12 m6 l6 ">
+                                        <div class="card ">
+                                            <div class="card-image ">
+                                                <img src="/assets/img/udemy.jpg ">
+                                            </div>
+                                            <div class="card-content ">
+                                                <span class="card-title teal-text ">Python3 Master Course (Udemy)</span>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col s12 m6 l6 ">
+                                        <div class="card ">
+                                            <div class="card-image ">
+                                                <img src="/assets/img/webintern.jfif">
+                                            </div>
+                                            <div class="card-content ">
+                                                <span class="card-title teal-text ">Web development intern (The Sparks Foundation)</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Seventh Section: Education -->
+        <section id="education" class="section scrollspy ">
+            <h3 class="page-title white-text teal ">Education</h3>
+            <div class="container ">
+                <div class="row ">
+                    <!-- Education -->
+                    <div class="col s12 m6 l6 ">
+                        <div class="card ">
+                            <div class="card-content ">
+                                <p>
+                                    <span class="card-title "><a href="http://velammal.edu.in/ " target="_blank " class="teal-text hoverline ">Velammal Engineering College</a></span>
+                                </p>
+                                <p class="brown-text ">Suarpet, Chennai</p>
+                                <p>
+                                    <b>Degree: </b>Bachelor of Engineering in Computer Science
+                                    <br>
+                                    <b>CGPA: </b>9.5/10.0
+                                </p>
+
+                                <ul>
+                                    <p>
+                                        <b>Relevant Courseworks:</b>
+                                        <ul>
+                                            <li>Data Structures and Algorithms</li>
+                                            <li>Object Oriented Programming</li>
+                                            <li>Foundations of Algorithms</li>
+                                        </ul>
+                                    </p>
+
+                                </ul>
+                            </div>
+                        </div>
+
+
+                    </div>
+                    <div class="col s12 m6 l6 ">
+                        <div class="card ">
+                            <div class="card-content ">
+                                <p>
+                                    <span class="card-title "><a href="http://kaligischools.ac.in/index.html " target="_blank " class="teal-text hoverline ">Kaligi Ranganathan Montford Matriculation Higher Secondary School</a></span>
+                                </p>
+                                <p class="brown-text ">Perambur, Chennai</p>
+                                <p>
+                                    <b>Higher Secondary Education: </b>Mathematics with Computer Science
+                                    <br>
+                                    <b>Grade: </b>86.67%
+                                </p>
+
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Eight Section: Contact -->
+        <section id="contact" class="section scrollspy full-height ">
+            <h3 class="page-title white-text teal ">Contact</h3>
+            <div class="container ">
+                <p>
+                    <a aria-label="Call Santhosh " data-position="top " data-tooltip="Call Santhosh " class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped "><i class="fa fa-phone "></i><a
+              aria-label="Call Santhosh ">+91 7358360447</a></a>
+                </p>
+                <p>
+                    <a aria-label="Email Santhosh " href="mailto:santhoshscse2020@gmail.com " target="_blank " data-position="top " data-tooltip="Email Santhosh " class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped "><i
+              class="fa fa-envelope "></i><a aria-label="Email Santhosh " href="mailto:santhoshscse2020@gmail.com "
+              class="hoverline ">santhoshscse2020@gmail.com</a></a>
+                </p>
+                <p>
+                    <a aria-label="View Santhosh on GitHub " href="http://github.com/Santhosh553 " target="_blank " data-position="top " data-tooltip="View Santhosh on GitHub " class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped
+                                    "><i class="fa fa-github "></i><a
+              aria-label="Santhosh on Github " href="http://github.com/Santhosh553 " class="hoverline "
+              target="_blank ">github.com/Santhosh553</a></a>
+                </p>
+                <p>
+                    <a aria-label="View Santhosh on LinkedIn " href="http://linkedin.com/in/Santhosh553 " target="_blank " data-position="top " data-tooltip="View Santhosh on LinkedIn " class="btn-floating btn-large waves-effect waves-light blue-grey
+                                    tooltipped "><i
+              class="fa fa-linkedin "></i><a aria-label="Santhosh on LinkedIn " href="http://linkedin.com/in/Santhosh553 "
+              class="hoverline " target="_blank ">linkedin.com/in/Santhosh553</a></a>
+                </p>
+            </div>
+        </section>
+    </main>
+</body>
+
+</html>
